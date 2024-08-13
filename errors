@@ -1,0 +1,271 @@
+ERROR: Invalid depfile: /home/ramar/prj/ibt/ibt_v5/.dart_tool/flutter_build/d4f6db3a7540ada4cce47f0f9bd67729/kernel_snapshot.d
+ERROR: Invalid depfile: /home/ramar/prj/ibt/ibt_v5/.dart_tool/flutter_build/d4f6db3a7540ada4cce47f0f9bd67729/kernel_snapshot.d
+ERROR: Error: Couldn't resolve the package 'sprintf' in 'package:sprintf/sprintf.dart'.
+ERROR: lib/main.dart:10:8: Error: Not found: 'package:sprintf/sprintf.dart'
+ERROR: import 'package:sprintf/sprintf.dart';
+ERROR:        ^
+ERROR: Error: Couldn't resolve the package 'shared_preferences' in 'package:shared_preferences/shared_preferences.dart'.
+ERROR: Error: Couldn't resolve the package 'audioplayers' in 'package:audioplayers/audio_cache.dart'.
+ERROR: lib/pages/settings.dart:7:8: Error: Not found: 'package:sprintf/sprintf.dart'
+ERROR: import 'package:sprintf/sprintf.dart';
+ERROR:        ^
+ERROR: lib/exercise.dart:6:8: Error: Not found: 'package:shared_preferences/shared_preferences.dart'
+ERROR: import 'package:shared_preferences/shared_preferences.dart';
+ERROR:        ^
+ERROR: lib/audio.dart:6:8: Error: Not found: 'package:audioplayers/audio_cache.dart'
+ERROR: import 'package:audioplayers/audio_cache.dart';
+ERROR:        ^
+ERROR: lib/audio.dart:9:2: Error: Type 'AudioCache' not found.
+ERROR: 	AudioCache _actx;
+ERROR: 	^^^^^^^^^^
+ERROR: lib/main.dart:92:14: Error: The parameter 'key' can't have a value of 'null' because of its type 'Key', but the implicit default value is 'null'.
+ERROR:  - 'Key' is from 'package:flutter/src/foundation/key.dart' ('/opt/flutter/packages/flutter/lib/src/foundation/key.dart').
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR:   Home({ Key key }) : super(key: key);
+ERROR:              ^^^
+ERROR: lib/main.dart:355:21: Error: The parameter 'key' can't have a value of 'null' because of its type 'Key', but the implicit default value is 'null'.
+ERROR:  - 'Key' is from 'package:flutter/src/foundation/key.dart' ('/opt/flutter/packages/flutter/lib/src/foundation/key.dart').
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 	BoxingTimeApp({Key key}) : super(key: key);
+ERROR: 	                   ^^^
+ERROR: lib/toggler.dart:59:7: Error: The parameter 'key' can't have a value of 'null' because of its type 'Key', but the implicit default value is 'null'.
+ERROR:  - 'Key' is from 'package:flutter/src/foundation/key.dart' ('/opt/flutter/packages/flutter/lib/src/foundation/key.dart').
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 		Key key
+ERROR: 		    ^^^
+ERROR: lib/toggler.dart:60:19: Error: The parameter 'keys' can't have a value of 'null' because of its type 'List<String>', but the implicit default value is 'null'.
+ERROR:  - 'List' is from 'dart:core'.
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 	, @required this.keys
+ERROR: 	                 ^^^^
+ERROR: lib/toggler.dart:61:19: Error: The parameter 'upd' can't have a value of 'null' because of its type 'Function', but the implicit default value is 'null'.
+ERROR:  - 'Function' is from 'dart:core'.
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 	, @required this.upd
+ERROR: 	                 ^^^
+ERROR: lib/toggler.dart:62:19: Error: The parameter 'sel' can't have a value of 'null' because of its type 'int', but the implicit default value is 'null'.
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 	, @required this.sel 
+ERROR: 	                 ^^^
+ERROR: lib/pages/settings.dart:10:10: Error: Field '_g' should be initialized because its type 'Exercise' doesn't allow null.
+ERROR:  - 'Exercise' is from 'package:ibt/exercise.dart' ('lib/exercise.dart').
+ERROR: Exercise _g;
+ERROR:          ^^
+ERROR: lib/pages/settings.dart:21:7: Error: The parameter 'key' can't have a value of 'null' because of its type 'Key', but the implicit default value is 'null'.
+ERROR:  - 'Key' is from 'package:flutter/src/foundation/key.dart' ('/opt/flutter/packages/flutter/lib/src/foundation/key.dart').
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 		Key key, 
+ERROR: 		    ^^^
+ERROR: lib/pages/settings.dart:22:18: Error: The parameter 'field' can't have a value of 'null' because of its type 'String', but the implicit default value is 'null'.
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 		@required this.field, 
+ERROR: 		               ^^^^^
+ERROR: lib/pages/settings.dart:23:18: Error: The parameter 'initial' can't have a value of 'null' because of its type 'int', but the implicit default value is 'null'.
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 		@required this.initial, 
+ERROR: 		               ^^^^^^^
+ERROR: lib/pages/settings.dart:24:18: Error: The parameter 'updater' can't have a value of 'null' because of its type 'void Function(String, int)', but the implicit default value is 'null'.
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 		@required this.updater
+ERROR: 		               ^^^^^^^
+ERROR: lib/pages/settings.dart:77:31: Error: The parameter 'key' can't have a value of 'null' because of its type 'Key', but the implicit default value is 'null'.
+ERROR:  - 'Key' is from 'package:flutter/src/foundation/key.dart' ('/opt/flutter/packages/flutter/lib/src/foundation/key.dart').
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 	_CustomSettingsWidget( { Key key, this.custom } ) : super( key : key );
+ERROR: 	                             ^^^
+ERROR: lib/pages/settings.dart:77:41: Error: The parameter 'custom' can't have a value of 'null' because of its type 'Exercise', but the implicit default value is 'null'.
+ERROR:  - 'Exercise' is from 'package:ibt/exercise.dart' ('lib/exercise.dart').
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 	_CustomSettingsWidget( { Key key, this.custom } ) : super( key : key );
+ERROR: 	                                       ^^^^^^
+ERROR: lib/pages/settings.dart:215:21: Error: The parameter 'key' can't have a value of 'null' because of its type 'Key', but the implicit default value is 'null'.
+ERROR:  - 'Key' is from 'package:flutter/src/foundation/key.dart' ('/opt/flutter/packages/flutter/lib/src/foundation/key.dart').
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR:  	SettingsPage({Key key}) : super(key: key);
+ERROR:  	                  ^^^
+ERROR: lib/input.dart:11:22: Error: The parameter 'key' can't have a value of 'null' because of its type 'Key', but the implicit default value is 'null'.
+ERROR:  - 'Key' is from 'package:flutter/src/foundation/key.dart' ('/opt/flutter/packages/flutter/lib/src/foundation/key.dart').
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 	ExerciseInput( {Key key, @required this.exercise, @required this.field} ) : super( key: key );
+ERROR: 	                    ^^^
+ERROR: lib/input.dart:11:42: Error: The parameter 'exercise' can't have a value of 'null' because of its type 'Exercise', but the implicit default value is 'null'.
+ERROR:  - 'Exercise' is from 'package:ibt/exercise.dart' ('lib/exercise.dart').
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 	ExerciseInput( {Key key, @required this.exercise, @required this.field} ) : super( key: key );
+ERROR: 	                                        ^^^^^^^^
+ERROR: lib/input.dart:11:67: Error: The parameter 'field' can't have a value of 'null' because of its type 'String', but the implicit default value is 'null'.
+ERROR: Try adding either an explicit non-'null' default value or the 'required' modifier.
+ERROR: 	ExerciseInput( {Key key, @required this.exercise, @required this.field} ) : super( key: key );
+ERROR: 	                                                                 ^^^^^
+ERROR: lib/main.dart:83:12: Error: The argument type 'Color?' can't be assigned to the parameter type 'Color' because 'Color?' is nullable and 'Color' isn't.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Colors.red[800],
+ERROR: 	          ^
+ERROR: lib/main.dart:84:13: Error: The argument type 'Color?' can't be assigned to the parameter type 'Color' because 'Color?' is nullable and 'Color' isn't.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Colors.grey[100],
+ERROR: 	           ^
+ERROR: lib/main.dart:168:12: Error: Can't return a value from a void function.
+ERROR: 				return t;
+ERROR: 				       ^
+ERROR: lib/main.dart:208:11: Error: A value of type 'Object?' can't be assigned to a variable of type 'Exercise'.
+ERROR:  - 'Object' is from 'dart:core'.
+ERROR:  - 'Exercise' is from 'package:ibt/exercise.dart' ('lib/exercise.dart').
+ERROR: 					ex = r;
+ERROR: 					     ^
+ERROR: lib/main.dart:233:20: Error: The method 'sprintf' isn't defined for the class '_HomeState'.
+ERROR:  - '_HomeState' is from 'package:ibt/main.dart' ('lib/main.dart').
+ERROR: Try correcting the name to the name of an existing method, or defining a method named 'sprintf'.
+ERROR: 								"${_min}:${sprintf( '%02i', [_secs] )}:" 
+ERROR: 								           ^^^^^^^
+ERROR: lib/main.dart:237:12: Error: The method 'sprintf' isn't defined for the class '_HomeState'.
+ERROR:  - '_HomeState' is from 'package:ibt/main.dart' ('lib/main.dart').
+ERROR: Try correcting the name to the name of an existing method, or defining a method named 'sprintf'.
+ERROR: 								"${sprintf( '%03i', [_msecs] )}" 
+ERROR: 								   ^^^^^^^
+ERROR: lib/main.dart:282:11: Error: Can't return a value from a void function.
+ERROR: 			return t;
+ERROR: 			       ^
+ERROR: lib/exercise.dart:49:3: Error: 'SharedPreferences' isn't a type.
+ERROR: 		SharedPreferences p = await SharedPreferences.getInstance();
+ERROR: 		^^^^^^^^^^^^^^^^^
+ERROR: lib/exercise.dart:49:31: Error: Undefined name 'SharedPreferences'.
+ERROR: 		SharedPreferences p = await SharedPreferences.getInstance();
+ERROR: 		                            ^^^^^^^^^^^^^^^^^
+ERROR: lib/exercise.dart:80:3: Error: 'SharedPreferences' isn't a type.
+ERROR: 		SharedPreferences p = await SharedPreferences.getInstance();
+ERROR: 		^^^^^^^^^^^^^^^^^
+ERROR: lib/exercise.dart:80:31: Error: Undefined name 'SharedPreferences'.
+ERROR: 		SharedPreferences p = await SharedPreferences.getInstance();
+ERROR: 		                            ^^^^^^^^^^^^^^^^^
+ERROR: lib/styling.dart:9:47: Error: A value of type 'Color?' can't be assigned to a variable of type 'Color' because 'Color?' is nullable and 'Color' isn't.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	static final Color settings = Colors.blueGrey[200];
+ERROR: 	                                             ^
+ERROR: lib/audio.dart:9:2: Error: 'AudioCache' isn't a type.
+ERROR: 	AudioCache _actx;
+ERROR: 	^^^^^^^^^^
+ERROR: lib/audio.dart:18:15: Error: Couldn't find constructor 'AudioCache'.
+ERROR: 		_actx = new AudioCache( prefix: 'wav/' );	
+ERROR: 		            ^^^^^^^^^^
+ERROR: lib/toggler.dart:7:29: Error: Couldn't find constructor 'List'.
+ERROR: 	List<bool> tSelected = new List(); 
+ERROR: 	                           ^^^^
+ERROR: lib/toggler.dart:8:25: Error: Couldn't find constructor 'List'.
+ERROR: 	List<Text> texts = new List();
+ERROR: 	                       ^^^^
+ERROR: lib/pages/settings.dart:75:24: Error: The value 'null' can't be assigned to a variable of type 'Exercise' because 'Exercise' is not nullable.
+ERROR:  - 'Exercise' is from 'package:ibt/exercise.dart' ('lib/exercise.dart').
+ERROR: 	Exercise custom, ce = null;
+ERROR: 	                      ^
+ERROR: lib/pages/settings.dart:114:15: Error: The method 'sprintf' isn't defined for the class '_CustomSettingsWidgetState'.
+ERROR:  - '_CustomSettingsWidgetState' is from 'package:ibt/pages/settings.dart' ('lib/pages/settings.dart').
+ERROR: Try correcting the name to the name of an existing method, or defining a method named 'sprintf'.
+ERROR: 											"${sprintf( '%01i',[ _g.length ~/ 1000 ~/ 60 ] )}"
+ERROR: 											   ^^^^^^^
+ERROR: lib/pages/settings.dart:115:16: Error: The method 'sprintf' isn't defined for the class '_CustomSettingsWidgetState'.
+ERROR:  - '_CustomSettingsWidgetState' is from 'package:ibt/pages/settings.dart' ('lib/pages/settings.dart').
+ERROR: Try correcting the name to the name of an existing method, or defining a method named 'sprintf'.
+ERROR: 											":${sprintf( '%02i',[ _g.length ~/ 1000 % 60 ])}", 
+ERROR: 											    ^^^^^^^
+ERROR: lib/pages/settings.dart:229:29: Error: The value 'null' can't be assigned to a variable of type '_CustomSettingsWidget' because '_CustomSettingsWidget' is not nullable.
+ERROR:  - '_CustomSettingsWidget' is from 'package:ibt/pages/settings.dart' ('lib/pages/settings.dart').
+ERROR: 	_CustomSettingsWidget ce = null;
+ERROR: 	                           ^
+ERROR: lib/main.dart:46:9: Error: Field 'text' should be initialized because its type 'String' doesn't allow null.
+ERROR: 	String text;
+ERROR: 	       ^^^^
+ERROR: lib/main.dart:55:8: Error: Field 'main' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color main, settings, help, reset, bg, fg;
+ERROR: 	      ^^^^
+ERROR: lib/main.dart:55:14: Error: Field 'settings' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color main, settings, help, reset, bg, fg;
+ERROR: 	            ^^^^^^^^
+ERROR: lib/main.dart:55:24: Error: Field 'help' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color main, settings, help, reset, bg, fg;
+ERROR: 	                      ^^^^
+ERROR: lib/main.dart:55:30: Error: Field 'reset' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color main, settings, help, reset, bg, fg;
+ERROR: 	                            ^^^^^
+ERROR: lib/main.dart:55:37: Error: Field 'bg' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color main, settings, help, reset, bg, fg;
+ERROR: 	                                   ^^
+ERROR: lib/main.dart:55:41: Error: Field 'fg' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color main, settings, help, reset, bg, fg;
+ERROR: 	                                       ^^
+ERROR: lib/main.dart:107:10: Error: Field 'style' should be initialized because its type 'Styling' doesn't allow null.
+ERROR:  - 'Styling' is from 'package:ibt/styling.dart' ('lib/styling.dart').
+ERROR: 	Styling style;
+ERROR: 	        ^^^^^
+ERROR: lib/main.dart:109:11: Error: Field 'ex' should be initialized because its type 'Exercise' doesn't allow null.
+ERROR:  - 'Exercise' is from 'package:ibt/exercise.dart' ('lib/exercise.dart').
+ERROR: 	Exercise ex;
+ERROR: 	         ^^
+ERROR: lib/main.dart:112:15: Error: Field '_ctx' should be initialized because its type 'BuildContext' doesn't allow null.
+ERROR:  - 'BuildContext' is from 'package:flutter/src/widgets/framework.dart' ('/opt/flutter/packages/flutter/lib/src/widgets/framework.dart').
+ERROR: 	BuildContext _ctx;
+ERROR: 	             ^^^^
+ERROR: lib/main.dart:113:8: Error: Field '_timer' should be initialized because its type 'Timer' doesn't allow null.
+ERROR:  - 'Timer' is from 'dart:async'.
+ERROR: 	Timer _timer;
+ERROR: 	      ^^^^^^
+ERROR: lib/main.dart:114:8: Error: Field 'bell' should be initialized because its type 'Audio' doesn't allow null.
+ERROR:  - 'Audio' is from 'package:ibt/audio.dart' ('lib/audio.dart').
+ERROR: 	Audio bell, mbell, wbell;
+ERROR: 	      ^^^^
+ERROR: lib/main.dart:114:14: Error: Field 'mbell' should be initialized because its type 'Audio' doesn't allow null.
+ERROR:  - 'Audio' is from 'package:ibt/audio.dart' ('lib/audio.dart').
+ERROR: 	Audio bell, mbell, wbell;
+ERROR: 	            ^^^^^
+ERROR: lib/main.dart:114:21: Error: Field 'wbell' should be initialized because its type 'Audio' doesn't allow null.
+ERROR:  - 'Audio' is from 'package:ibt/audio.dart' ('lib/audio.dart').
+ERROR: 	Audio bell, mbell, wbell;
+ERROR: 	                   ^^^^^
+ERROR: lib/main.dart:117:8: Error: Field 'mainColor' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color mainColor, settingsColor, helpColor, resetColor, bgColor, fgColor;
+ERROR: 	      ^^^^^^^^^
+ERROR: lib/main.dart:117:19: Error: Field 'settingsColor' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color mainColor, settingsColor, helpColor, resetColor, bgColor, fgColor;
+ERROR: 	                 ^^^^^^^^^^^^^
+ERROR: lib/main.dart:117:34: Error: Field 'helpColor' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color mainColor, settingsColor, helpColor, resetColor, bgColor, fgColor;
+ERROR: 	                                ^^^^^^^^^
+ERROR: lib/main.dart:117:45: Error: Field 'resetColor' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color mainColor, settingsColor, helpColor, resetColor, bgColor, fgColor;
+ERROR: 	                                           ^^^^^^^^^^
+ERROR: lib/main.dart:117:57: Error: Field 'bgColor' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color mainColor, settingsColor, helpColor, resetColor, bgColor, fgColor;
+ERROR: 	                                                       ^^^^^^^
+ERROR: lib/main.dart:117:66: Error: Field 'fgColor' should be initialized because its type 'Color' doesn't allow null.
+ERROR:  - 'Color' is from 'dart:ui'.
+ERROR: 	Color mainColor, settingsColor, helpColor, resetColor, bgColor, fgColor;
+ERROR: 	                                                                ^^^^^^^
+ERROR: lib/main.dart:125:8: Error: Field 'round' should be initialized because its type 'Round' doesn't allow null.
+ERROR:  - 'Round' is from 'package:ibt/main.dart' ('lib/main.dart').
+ERROR: 	Round round;
+ERROR: 	      ^^^^^
+ERROR: lib/exercise.dart:10:6: Error: Field 'type' should be initialized because its type 'int' doesn't allow null.
+ERROR: 	int type;
+ERROR: 	    ^^^^
+ERROR: lib/pages/settings.dart:15:11: Error: Field 'exercise' should be initialized because its type 'Exercise' doesn't allow null.
+ERROR:  - 'Exercise' is from 'package:ibt/exercise.dart' ('lib/exercise.dart').
+ERROR: 	Exercise exercise;
+ERROR: 	         ^^^^^^^^
+ERROR: lib/pages/settings.dart:225:15: Error: Field '_ctx' should be initialized because its type 'BuildContext' doesn't allow null.
+ERROR:  - 'BuildContext' is from 'package:flutter/src/widgets/framework.dart' ('/opt/flutter/packages/flutter/lib/src/widgets/framework.dart').
+ERROR: 	BuildContext _ctx;
+ERROR: 	             ^^^^
+ERROR: Unhandled exception:
+ERROR: Target kernel_snapshot failed: Exception
+Exception: Build process failed
